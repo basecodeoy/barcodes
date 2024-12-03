@@ -1,0 +1,186 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method in\\(\\) on iterable\\<SplFileInfo\\>\\.$#"
+			count: 1
+			path: .php-cs-fixer.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Algorithms/Luhn.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/GDTI.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Barcodes\\\\Values\\\\GDTI\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/GDTI.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/GDTI\\.php\\:55\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/GDTI.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/GLN.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Barcodes\\\\Values\\\\GLN\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/GLN.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/GLN\\.php\\:51\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/GLN.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/GRAI.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Barcodes\\\\Values\\\\GRAI\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/GRAI.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/GRAI\\.php\\:65\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/GRAI.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/GSRN.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Barcodes\\\\Values\\\\GSRN\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/GSRN.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/GSRN\\.php\\:47\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/GSRN.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/GTIN12.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Barcodes\\\\Values\\\\GTIN12\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/GTIN12.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/GTIN12\\.php\\:51\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/GTIN12.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/GTIN13.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Barcodes\\\\Values\\\\GTIN13\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/GTIN13.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/GTIN13\\.php\\:51\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/GTIN13.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/GTIN14.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Barcodes\\\\Values\\\\GTIN14\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/GTIN14.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/GTIN14\\.php\\:51\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/GTIN14.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/GTIN8.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Barcodes\\\\Values\\\\GTIN8\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/GTIN8.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/GTIN8\\.php\\:51\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/GTIN8.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/SSCC.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Barcodes\\\\Values\\\\SSCC\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/SSCC.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/SSCC\\.php\\:51\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/SSCC.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/UDI.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Barcodes\\\\Values\\\\UDI\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/UDI.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/UDI\\.php\\:52\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/UDI.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\:\\:expect\\(\\)\\.$#"
+			count: 1
+			path: tests/ArchTest.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Foundation\\\\Application\\:\\:\\$config\\.$#"
+			count: 6
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$app \\(Illuminate\\\\Application\\) of method Tests\\\\TestCase\\:\\:getPackageProviders\\(\\) should be contravariant with parameter \\$app \\(Illuminate\\\\Foundation\\\\Application\\) of method Orchestra\\\\Testbench\\\\TestCase\\:\\:getPackageProviders\\(\\)$#"
+			count: 1
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$path of method Illuminate\\\\Foundation\\\\Application\\:\\:useStoragePath\\(\\) expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\$app of method Tests\\\\TestCase\\:\\:getPackageProviders\\(\\) has invalid type Illuminate\\\\Application\\.$#"
+			count: 1
+			path: tests/TestCase.php

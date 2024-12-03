@@ -1,0 +1,60 @@
+{
+    "name": "basecodeoy/barcodes",
+    "description": "A collection of barcode generators and validators.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "BaseCode Oy",
+        "laravel",
+        "intl"
+    ],
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "hello@basecode.sh",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/basecodeoy/barcodes",
+    "support": {
+        "issues": "https://github.com/basecodeoy/barcodes/issues",
+        "source": "https://github.com/basecodeoy/barcodes",
+        "security": "https://github.com/basecodeoy/barcodes/blob/main/.github/SECURITY.md"
+    },
+    "require": {
+        "php": "^8.3",
+        "ext-ctype": "*",
+        "ext-mbstring": "*",
+        "illuminate/contracts": "^11.0",
+        "illuminate/support": "^11.0",
+        "spatie/laravel-data": "^4.11.1",
+        "spatie/regex": "^3.1.1"
+    },
+    "require-dev": {
+        "basecodeoy/standards": "^1.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaseCodeOy\\Barcodes\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true,
+            "infection/extension-installer": true,
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true
+        },
+        "audit": {
+            "abandoned": "report"
+        },
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
